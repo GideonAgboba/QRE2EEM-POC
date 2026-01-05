@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "e2e-poc",
+    "slug": "e2e-poc",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gideon-amp.e2e-poc"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.gideonamp.e2epoc"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f13fbb2a-407f-45eb-842d-a79f7d3971ef"
+      }
+    },
+    "owner": "gideon-amp",
+    "plugins": [
+      "expo-secure-store"
+    ]
+  }
+}
